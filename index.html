@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> .:':. Kalkulator .:':.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kalkulator Dengan Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script language="Javascript" src="proses.js"></script>
+</head>
+
+<body>
+    <div id="wripper">
+        <div id="header">
+            <h1>
+
+                <div class="blink"> .:':. KALKULATOR .:':. </div>
+
+            </h1>
+        </div>
+        <div id="konten">
+            <form name="form1">
+                <table align="center">
+                    <tr>
+                        <td>Masukkan Angka Pertama</td>
+                        <td><input name="angka1" type="number" placeholder="Angka Pertama"></td>
+
+                    </tr>
+                    <tr>
+                        <td>Masukkan Angka Kedua</td>
+                        <td><input name="angka2" type="number" placeholder="Angka Kedua"></td>
+                    </tr>
+                    <tr>
+                        <td>Pilih Jenis Operator</td>
+                        <td><select name="operator" size="1">
+                                        <option value="">Pilih</option>
+                                    <option value="kali" >Kali</option>
+                                    <option value="tambah">Tambah</option>
+                                    <option value="kurang">Kurang</option>
+                                    <option value="bagi">Bagi</option>
+                                    <option value="mod">Modulo</option>
+                                    <option value="Pangkat">Pangkat</option>
+                                    
+                                </select></td>
+                    </tr>
+                    <tr>
+                        <td>Hasil</td>
+                        <td><input name="hasil" disabled="true" type="number"></td>
+                    </tr>
+                    <td></td>
+                    <td>
+                        <div class="button"><input type="button" onclick="proseshitung()" class="btn btn-primary" value="Hitung"> </input> &nbsp; <input type="reset" value="Reset"></div>
+                    </td>
+
+                </table>
+            </form>
+        </div>
+        <div id="footer">
+            <h4><span class="credit">- 2019 -</span></h4>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
